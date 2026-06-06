@@ -5,7 +5,7 @@ import random
 cmd = sys.argv[1] if len(sys.argv) > 1 else ""
 
 if cmd == "help":
-    print("Commandes : help, time, date, IA, random, idée, ad")
+    print("Commandes : help, time, date, IA, random, idée, pub (=ad)")
 
 elif cmd == "time":
     print(time.strftime("%H:%M:%S"))
