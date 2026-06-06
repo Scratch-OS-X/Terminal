@@ -37,6 +37,4 @@ jobs:
         body: |
           **Commande exécutée :** `${{ steps.extract.outputs.cmd }}`
           **Réponse :**
-          ```
           ${{ steps.run.outputs.output }}
-          ```
